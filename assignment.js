@@ -71,10 +71,7 @@ function printArray(A, size)
     }
     console.log(output);
 
-	// let i;
-	// for(i = 0; i < size; i++)
-	// 	console.log(A[i] + " ");
-		
+
 	
 }
 
@@ -84,5 +81,7 @@ let arr_size = arr.length;
 
 mergeSort(arr, 0, arr_size - 1);
 printArray(arr, arr_size);
+
+// output  [5,6,7,11,12,13]
 
 
